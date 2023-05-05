@@ -51,7 +51,7 @@ class Snake_Bot(discord.Client):
         if message.author.id == self.user.id:
             return
 '''
- search channel
+ Find channel
 '''
         if message.channel.name == 'snake_game':
             if message.content.startswith('!start'):
